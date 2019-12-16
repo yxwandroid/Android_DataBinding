@@ -3,15 +3,13 @@
 
     <data>
 
-        <import type="com.wilson.android_databinding.User" />
+        <import type="com.wilson.android_databinding.MyViewModel" />
 
         <variable
-            name="user"
-            type="User" />
+            name="data"
+            type="MyViewModel" />
 
-        <!--        <variable-->
-        <!--            name="clickListener"-->
-        <!--            type="android.view.View.OnClickListener" />-->
+
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,19 +26,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@{user.name}" />
+                android:text="@{String.valueOf(data.nnumber)}" />
 
-            <TextView
+
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@{String.valueOf(user.age)}" />
-
-
-            <!--            <Button-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:onClick="@{user}"-->
-            <!--                android:text="更新" />-->
+                android:onClick="@{()->data.add()}"
+                android:text="更新" />
         </LinearLayout>
 
 
