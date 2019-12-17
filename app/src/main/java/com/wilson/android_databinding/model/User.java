@@ -1,4 +1,4 @@
-package com.wilson.android_databinding;
+package com.wilson.android_databinding.model;
 
 import androidx.databinding.BaseObservable;
 import androidx.databinding.Bindable;

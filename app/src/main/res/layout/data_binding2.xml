@@ -3,11 +3,11 @@
 
     <data>
 
-        <import type="com.wilson.android_databinding.MyViewModel" />
+        <import type="com.wilson.android_databinding.viewmodel.MyViewModel" />
 
         <variable
             name="data"
-            type="MyViewModel" />
+            type="com.wilson.android_databinding.viewmodel.MyViewModel" />
 
 
     </data>

@@ -1,4 +1,4 @@
-package com.wilson.android_databinding;
+package com.wilson.android_databinding.viewmodel;
 
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
